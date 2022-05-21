@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     PlayerStats playerStats;
     private float offset = 0.5f;
+    
     void Start()
     {
         playerStats = gameObject.GetComponent<PlayerStats>();
